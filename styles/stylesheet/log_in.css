@@ -1,0 +1,77 @@
+.main_div
+{
+    width: 784px;
+    height: 416px;
+    background-color: #313338;
+    padding: 32px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #ffffff;
+    font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Arial, sans-serif;
+    margin: auto;
+    margin-top: 150px; 
+}
+body
+{
+    background-image: url("../../images/login_background.webp");
+    max-width: 1920px;
+    max-height: 1080px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+html
+{
+    font-family: gg sans;
+}
+
+.Email_input
+{
+    width: 414.67px;
+    height: 44px;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #1e1f22;
+    background-color: #1e1f22;
+    color: #ffffff;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.Password_input
+{
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #1e1f22;
+    background-color: #1e1f22;
+    color: #ffffff;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.log_in
+{
+    width: 100%;
+    padding: 12px;
+    background-color: #5865f2; 
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.Forgot_password
+{
+    font-size: 14px;
+    color: #00a8fc;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+    background: none;
+}
