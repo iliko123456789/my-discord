@@ -1,0 +1,174 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #2f3136;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.message_area {
+  padding: 20px;
+  border-top: 1px solid #202225;
+}
+
+.input_container {
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+  border: 1px solid red;
+
+}
+
+.message {
+  font-size: 18px;
+  padding: 12px 160px 12px 40px;
+  width: 100%;
+  background-color: #40444b;
+  border: 1px solid #2f3136;
+  border-radius: 5px;
+  color: white;
+  box-sizing: border-box;
+
+}
+
+.plus_div {
+  position: absolute;
+  top: 83.5%;
+  left: 10px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.plus_function {
+  width: 24px;
+  height: 24px;
+  margin-top: 6px;
+  cursor: pointer;
+  display: block;
+}
+
+.icon {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+
+.icons_group {
+  position: absolute;
+  top: 83.5%;
+  right: 10px;
+  display: flex;
+  gap: 8px;
+  transform: translateY(-50%);
+}
+.plus_div_function
+{
+  display: block;
+  position: fixed;
+  bottom: 50px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #2f3136;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #202225;
+  padding: 5px 10px;
+  border-bottom: 1px solid #2f3136;
+  position: fixed;
+  top: 45.1px;
+  width: 100%;
+}
+
+.top_actions {
+  display: flex;
+  gap: 16px;
+}
+
+.top_icon {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+  filter: brightness(0.9);
+  transition: 0.2s ease;
+}
+
+.top_input {
+  background-color: #40444b;
+  border: 1px solid #2f3136;
+  border-radius: 4px;
+  padding: 6px 10px;
+  color: white;
+  font-size: 14px;
+  outline: none;
+  margin-left: 10px;
+  width: 150px;
+  transition: 0.2s ease;
+}
+
+.header_top {
+  background-color: #181818;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  padding: 10px 20px;
+
+}
+
+.discord_container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 400px;
+  margin: 0 auto;
+}
+
+.disocrd_img {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+}
+
+.header_top p {
+  color: #ffffff;
+  font-size: 18px;
+  margin: 0;
+  padding-left: 20px;
+  z-index: 1;
+}
+
+.icons {
+  display: flex;
+}
+
+.inbox_img, .help_img {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  margin-left: 10px;
+}
+header
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
